@@ -1,0 +1,359 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+a{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+body {
+    min-width: 320px;
+    word-break: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: 26px 388px 70px 387px;
+}
+
+/* global */
+
+.list_reset{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.border-line {
+    border-bottom: 1px solid #7A7A7A;
+}
+
+/* Header */
+
+/* Верхняя часть header */
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1142px;
+    height: 769px;
+    margin: 0 auto;
+}
+
+.header-logo-line {
+    width: 1142px;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logotype {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    column-gap: 23px;
+}
+
+.taglogo{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    color: #434A5C;
+
+}
+
+.feedback-header {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 500;
+    color: #484848;
+}
+
+.feedback-header-phone {
+    margin-left: 18px;
+}
+
+/* Нижняя часть header */
+
+.header-footer {
+    height: 698px;
+    width: 1142px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7A7A7A;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.header-list-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #7A7A7A;
+}
+
+.list-header {
+    height: 60px;
+    width: 1142px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-header-menu-left {
+    column-gap: 23px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.list-header-menu-right {
+    column-gap: 23px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+/* 1й rонтейнер */
+
+.fun {
+    width: 1144px;
+    height: 895px;
+
+}
+
+.fun-h2 {
+    margin-bottom: 33px;
+}
+
+h1 {
+    width: 735px;
+    height: 164px;
+    font-size: 64px;
+    margin-top: 27px;
+    font-weight: 600;
+    color: #141414;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #BF6024;
+}
+
+h3 {
+    font-size: 14px;
+    color: #141414;
+}
+
+.fun-container {
+    width: 1140px;
+    height: 734px;
+    display: grid;
+    grid: auto / repeat(2, 1fr);
+    grid-gap: 33px;
+}
+
+.fun-container-left {
+    padding-right: 28px;
+}
+
+.fun-container-paddint-top-text {
+    padding-top: 14px;
+}
+
+/* 2й контейнер */
+
+.live-resort {
+    height: 742px;
+    width: 1142px;
+}
+
+.live-resort-paddingbottom {
+    padding-top: 67px;
+    padding-bottom: 31px;
+}
+
+.live-resort-container {
+    display: grid;
+    grid-auto-columns: auto auto;
+    grid-auto-rows: auto auto;
+    grid-auto-flow: column;
+    gap: 30px;
+}
+
+.live-resort-container-tworow {
+    grid-row: span 2;
+    background-image: url("../img/image_3.svg");
+    width: 555px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.live-resort-container-tworow-block {
+    width: 283px;
+    height: 83px;
+    margin: 489px 238px 28px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.live-resort-container-tworow-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.live-resort-container-tworow-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    width: 283px;
+    height: 28px;
+}
+
+.live-resort-container-tworow-buttons-book {
+    background-color: #BF6024;
+    color: #E5C6B2;
+    border-radius: 50px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #BF6024;
+    padding: 5px 13px;
+}
+
+.live-resort-container-tworow-buttons-watch {
+    background-color: rgba(0,0,0,0);
+    color: #E5C6B2;
+    border-radius: 50px;
+    border: 1px solid #E5C6B2;
+    padding: 5px 13px;
+}
+
+.live-resort-container-bestprice {
+    height: 285px;
+    width: 540px;
+    background-color: #EAEDF2;
+    padding: 84px 260px 83px 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.live-resort-container-bestprice-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.live-resort-container-bestprice-button {
+    background-color: rgba(0,0,0,0);
+    color: #E5C6B2;
+    border-radius: 50px;
+    border: 1px solid #E5C6B2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+}
+
+.live-resort-container-loyalty {
+    height: 285px;
+    width: 540px;
+    background-color: #EAEDF2;
+    padding: 65px 198px 73px 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.live-resort-container-loyalty-buttons {
+    width: 246px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.live-resort-container-loyalty-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Подвал */
+
+footer {
+    width: 1142px;
+    height: 76px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    font-size: 14px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #424242;
+}
+
+.footer-license {
+    width: 361px;
+    height: 76px;
+}
+
+.footer-call {
+    width: 247px;
+    height: 76px;
+}
+
+.footer-text {
+    width: 340px;
+    height: 76px;
+}
